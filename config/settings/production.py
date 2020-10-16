@@ -11,6 +11,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 DEBUG = os.environ.get('DJANGO_DEBUG') or False
 ALLOWED_HOSTS = [
     'bedu-movies-django.herokuapp.com',
+    'django-env.eba-gvdbmmkk.us-west-2.elasticbeanstalk.com',
 ]
 
 # Security
