@@ -27,7 +27,7 @@ DATABASES = {
     'default': dj_database_url.config(conn_max_age=600)
 }
 
-DATABASES['ATOMIC_REQUESTS'] = True
+DATABASES['default']['ATOMIC_REQUESTS'] = True
 
 
 # Whitenoise
