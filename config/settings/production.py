@@ -10,7 +10,7 @@ import dj_database_url
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 DEBUG = os.environ.get('DJANGO_DEBUG') or False
 ALLOWED_HOSTS = [
-    'herokuapp.com'
+    'bedu-movies-django.herokuapp.com',
 ]
 
 # Security
