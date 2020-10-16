@@ -1,11 +1,8 @@
-"""Django settings for project."""
+"""Base settings for project."""
 
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY = 'u5v1f29=_^(@)6ufgi4)noan%m8fot2=z%70=o&s)@c=33ei0+'
-DEBUG = True
-ALLOWED_HOSTS = []
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # Application definition
 
